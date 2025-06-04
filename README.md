@@ -52,7 +52,7 @@ This project is an AI-powered webpage generator that translates natural language
  ``` Create a login page with email input, password input, and a submit button ```
 ### OUTPUT:
 
-Here is a simple component for a login page using the components from Camped UI:
+> Here is a simple component for a login page using the components from Camped UI:
 
 ```jsx
 import { Button } from "@camped-ui/button"
@@ -88,6 +88,7 @@ export function LoginPage() {
 }
 ```
 
-This will create a login page with email and password inputs and a submit button. The password input field is set to "password" type to hide the input. You can replace these inputs with your own components or use components from another library if required.
+> This will create a login page with email and password inputs and a submit button. The password input field is set to "password" type to hide the input. You can replace these inputs with your own components or use components from another library if required.
+
 
 ---
