@@ -1,0 +1,180 @@
+Camped UI Cheatsheet with Tags and Usage
+
+=========================================
+
+
+Layout & Display
+----------------
+- @camped-ui/card
+  Description: Used to display grouped content in a clean container with a header, body, and footer.
+  • <Card>
+  • <CardHeader>
+  • <CardTitle>
+  • <CardDescription>
+  • <CardContent>
+  • <CardFooter>
+
+- @camped-ui/separator
+  Description: A horizontal or vertical line used to separate sections of content.
+  • <Separator>
+
+- @camped-ui/skeleton
+  Description: A loading placeholder used while content is being fetched or rendered.
+  • <Skeleton>
+
+
+Forms
+-----
+- @camped-ui/input
+  Description: A styled input field for user text entry.
+  • <Input>
+
+- @camped-ui/label
+  Description: Labels for form inputs, enhancing accessibility and UX.
+  • <Label>
+
+- @camped-ui/textarea
+  Description: A multi-line text input field for longer input.
+  • <Textarea>
+
+- @camped-ui/select
+  Description: Custom dropdown select menus for selecting one option from a list.
+  • <Select>
+  • <SelectTrigger>
+  • <SelectContent>
+  • <SelectItem>
+
+- @camped-ui/checkbox
+  Description: Checkbox input for toggling boolean options.
+  • <Checkbox>
+
+- @camped-ui/radio-group
+  Description: Set of radio buttons allowing a single choice among multiple options.
+  • <RadioGroup>
+  • <RadioGroupItem>
+
+- @camped-ui/switch
+  Description: Toggle switch for binary on/off states.
+  • <Switch>
+
+- @camped-ui/form
+  Description: Wrapper components for building structured, validated forms.
+  • <Form>
+  • <FormField>
+  • <FormItem>
+  • <FormLabel>
+  • <FormMessage>
+
+
+Buttons & Actions
+-----------------
+
+- @camped-ui/button
+  Description: Interactive button element for submitting forms or triggering actions.
+  • <Button>
+
+
+Feedback
+--------
+
+- @camped-ui/alert
+  Description: Used to show important messages or warnings.
+  • <Alert>
+  • <AlertTitle>
+  • <AlertDescription>
+
+- @camped-ui/tooltip
+  Description: Displays helpful hints when hovering over an element.
+  • <Tooltip>
+  • <TooltipTrigger>
+  • <TooltipContent>
+
+- @camped-ui/dialog
+  Description: Modal dialog used for alerts, confirmations, or additional content.
+  • <Dialog>
+  • <DialogTrigger>
+  • <DialogContent>
+  • <DialogHeader>
+  • <DialogFooter>
+
+- @camped-ui/popover
+  Description: Popups triggered by a click, useful for additional inline options.
+  • <Popover>
+  • <PopoverTrigger>
+  • <PopoverContent>
+
+- @camped-ui/toast
+  Description: Temporary popup notifications used to provide feedback.
+  • <Toast>
+  • <ToastProvider>
+  • <ToastViewport>
+
+
+Navigation
+----------
+
+- @camped-ui/tabs
+  Description: Tab-based navigation for switching between different content panels.
+  • <Tabs>
+  • <TabsList>
+  • <TabsTrigger>
+  • <TabsContent>
+
+- @camped-ui/dropdown-menu
+  Description: Menu that appears on trigger click, ideal for overflow options.
+  • <DropdownMenu>
+  • <DropdownMenuTrigger>
+  • <DropdownMenuContent>
+  • <DropdownMenuItem>
+
+- @camped-ui/accordion
+  Description: Expandable/collapsible content sections used for FAQs and disclosures.
+  • <Accordion>
+  • <AccordionItem>
+  • <AccordionTrigger>
+  • <AccordionContent>
+
+- @camped-ui/navigation-menu
+  Description: Structured menu for website or app primary navigation.
+  • <NavigationMenu>
+  • <NavigationMenuList>
+  • <NavigationMenuItem>
+
+
+Overlays & Modals
+-----------------
+- @camped-ui/sheet
+  Description: Sliding panel from the edge of the screen, often used for side menus.
+  • <Sheet>
+  • <SheetTrigger>
+  • <SheetContent>
+
+- @camped-ui/drawer
+  Description: Panel that slides in and out, used for navigation or forms.
+  • <Drawer>
+  • <DrawerTrigger>
+  • <DrawerContent>
+
+- @camped-ui/hover-card
+  Description: Card that appears when hovering, ideal for previews or tooltips.
+  • <HoverCard>
+  • <HoverCardTrigger>
+  • <HoverCardContent>
+
+
+Media & Avatars
+---------------
+
+- @camped-ui/avatar
+  Description: Circular user profile image with fallback initials.
+  • <Avatar>
+  • <AvatarImage>
+  • <AvatarFallback>
+
+
+Typography
+----------
+
+- @camped-ui/typography
+  Description: Pre-styled classes for formatting paragraphs, headings, and text blocks.
+  • <Rich text utility classes>
