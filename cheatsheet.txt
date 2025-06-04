@@ -32,159 +32,202 @@ Layout & Display
   Description: Indicates status, notifications, or achievements. It enhances visual communication within user interface.
   • <Badge>
 
+- @camped-ui/bento-grid  
+  Description: Responsive skewed grid layout for organizing and showcasing content.  
+  • <BentoGrid>  
+  • <BentoGridItem>
 
-Forms
------
-- @camped-ui/input
-  Description: A styled input field for user text entry.
-  • <Input>
+- @camped-ui/breadcrumb  
+  Description: Displays the path to the current resource using a hierarchy of links.  
+  • <Breadcrumb>  
+  • <BreadcrumbItem>  
+  • <BreadcrumbLink>  
+  • <BreadcrumbList>  
+  • <BreadcrumbPage>  
+  • <BreadcrumbSeparator>
 
-- @camped-ui/label
-  Description: Labels for form inputs, enhancing accessibility and UX.
-  • <Label>
+- @camped-ui/button  
+  Description: Interactive element used to perform actions, submit forms, or navigate.  
+  • <Button>  
 
-- @camped-ui/textarea
-  Description: A multi-line text input field for longer input.
-  • <Textarea>
+- @camped-ui/card  
+  Description: Structured container for presenting content like articles, product details, or user profiles.  
+  • <Card>  
+  • <CardContent>  
+  • <CardDescription>  
+  • <CardFooter>  
+  • <CardHeader>  
+  • <CardTitle>  
 
-- @camped-ui/select
-  Description: Custom dropdown select menus for selecting one option from a list.
-  • <Select>
-  • <SelectTrigger>
-  • <SelectContent>
-  • <SelectItem>
+- @camped-ui/carousel  
+  Description: Swipeable and interactive content slider, ideal for image galleries and product showcases.  
+  • <Carousel>  
+  • <CarouselContent>  
+  • <CarouselItem>  
+  • <CarouselNext>  
+  • <CarouselPrevious>  
 
-- @camped-ui/checkbox
-  Description: Checkbox input for toggling boolean options.
-  • <Checkbox>
+- @camped-ui/command  
+  Description: Fast, composable, unstyled command menu for React, ideal for context menus and dropdowns.  
+  • <Command>  
+  • <CommandDialog>  
+  • <CommandEmpty>  
+  • <CommandGroup>  
+  • <CommandInput>  
+  • <CommandItem>  
+  • <CommandList>  
+  • <CommandSeparator>  
+  • <CommandShortcut> 
 
-- @camped-ui/radio-group
-  Description: Set of radio buttons allowing a single choice among multiple options.
-  • <RadioGroup>
-  • <RadioGroupItem>
+- @camped-ui/context-menu  
+  Description: Context-sensitive menu triggered by button or right-click, offering tailored action options.  
+  • <ContextMenu>  
+  • <ContextMenuContent>  
+  • <ContextMenuItem>  
+  • <ContextMenuTrigger>  
 
-- @camped-ui/switch
-  Description: Toggle switch for binary on/off states.
-  • <Switch>
+- Data Table  
+  Description: Feature-rich table and datagrid built with TanStack Table, supporting sorting, filtering, and large datasets.  
+  • <Table>
 
-- @camped-ui/form
-  Description: Wrapper components for building structured, validated forms.
-  • <Form>
-  • <FormField>
-  • <FormItem>
-  • <FormLabel>
-  • <FormMessage>
+- @camped-ui/dropdown-menu  
+  Description: Space-efficient menu triggered by a button, ideal for navigation and settings.  
+  • <DropdownMenu>  
+  • <DropdownMenuContent>  
+  • <DropdownMenuItem>  
+  • <DropdownMenuLabel>  
+  • <DropdownMenuSeparator>  
+  • <DropdownMenuTrigger>  
 
+- @camped-ui/hover-card  
+  Description: Interactive preview card shown on hover, useful for quick content previews without navigation.  
+  • <HoverCard>  
+  • <HoverCardContent>  
+  • <HoverCardTrigger>  
 
-Buttons & Actions
------------------
+- @camped-ui/label  
+  Description: Accessible labels associated with form controls to improve usability and inclusivity.  
+  • <Label>  
 
-- @camped-ui/button
-  Description: Interactive button element for submitting forms or triggering actions.
-  • <Button>
+- @camped-ui/menubar  
+  Description: Persistent desktop-style menu providing quick access to commands and navigation.  
+  • <Menubar>  
+  • <MenubarContent>  
+  • <MenubarItem>  
+  • <MenubarMenu>  
+  • <MenubarSeparator>  
+  • <MenubarShortcut>  
+  • <MenubarTrigger>  
 
+- @camped-ui/navigation-menu  
+  Description: Structured collection of links for efficient website navigation.  
+  • <NavigationMenu>  
+  • <NavigationMenuContent>  
+  • <NavigationMenuIndicator>  
+  • <NavigationMenuItem>  
+  • <NavigationMenuLink>  
+  • <NavigationMenuList>  
+  • <NavigationMenuTrigger>  
+  • <NavigationMenuViewport>  
 
-Feedback
---------
+- @camped-ui/pagination  
+  Description: Page navigation with next, previous, and ellipsis links.  
+  • <Pagination>  
+  • <PaginationContent>  
+  • <PaginationEllipsis>  
+  • <PaginationItem>  
+  • <PaginationLink>  
+  • <PaginationNext>  
+  • <PaginationPrevious>  
 
-- @camped-ui/alert
-  Description: Used to show important messages or warnings.
-  • <Alert>
-  • <AlertTitle>
-  • <AlertDescription>
+- @camped-ui/progress  
+  Description: Visual indicator of task completion progress, often displayed as a progress bar.  
+  • <Progress>  
 
-- @camped-ui/tooltip
-  Description: Displays helpful hints when hovering over an element.
-  • <Tooltip>
-  • <TooltipTrigger>
-  • <TooltipContent>
+- @camped-ui/resizable  
+  Description: Accessible resizable panel groups and layouts with keyboard support.  
+  • <ResizableHandle>  
+  • <ResizablePanel>  
+  • <ResizablePanelGroup>  
 
-- @camped-ui/dialog
-  Description: Modal dialog used for alerts, confirmations, or additional content.
-  • <Dialog>
-  • <DialogTrigger>
-  • <DialogContent>
-  • <DialogHeader>
-  • <DialogFooter>
+- @camped-ui/scroll-area  
+  Description: Enhances native scroll with custom styling and visual improvements.  
+  • <ScrollArea>  
 
-- @camped-ui/popover
-  Description: Popups triggered by a click, useful for additional inline options.
-  • <Popover>
-  • <PopoverTrigger>
-  • <PopoverContent>
+- @camped-ui/separator  
+  Description: Visual or semantic divider to separate content sections.  
+  • <Separator>  
 
-- @camped-ui/toast
-  Description: Temporary popup notifications used to provide feedback.
-  • <Toast>
-  • <ToastProvider>
-  • <ToastViewport>
+- @camped-ui/skeleton  
+  Description: Placeholder to represent loading content structure, enhancing loading UX.  
+  • <Skeleton>  
 
+- @camped-ui/slider  
+  Description: Interactive input for selecting a value from a range via a movable handle.  
+  • <Slider>  
 
-Navigation
-----------
+- @camped-ui/stepper  
+  Description: Divides content into sequential steps with navigation and validation features.  
+  • <Step>  
+  • <Stepper>  
+  • useStepper (hook)  
+  • type StepItem  
 
-- @camped-ui/tabs
-  Description: Tab-based navigation for switching between different content panels.
-  • <Tabs>
-  • <TabsList>
-  • <TabsTrigger>
-  • <TabsContent>
+- @camped-ui/sticky-scroll-reveal  
+  Description: Enhances scroll with styled scrollbars, shadows, and immersive effects.  
+  • <ScrollContent>  
+  • <StickyScroll>  
+  • <StickyContent>  
+  • <StickyScrollItem>  
 
-- @camped-ui/dropdown-menu
-  Description: Menu that appears on trigger click, ideal for overflow options.
-  • <DropdownMenu>
-  • <DropdownMenuTrigger>
-  • <DropdownMenuContent>
-  • <DropdownMenuItem>
+- @camped-ui/switch  
+  Description: Toggle control for binary on/off states, user-friendly and accessible.  
+  • <Switch>  
 
-- @camped-ui/accordion
-  Description: Expandable/collapsible content sections used for FAQs and disclosures.
-  • <Accordion>
-  • <AccordionItem>
-  • <AccordionTrigger>
-  • <AccordionContent>
+- @camped-ui/table  
+  Description: Responsive and versatile tabular data display with rows and columns.  
+  • <Table>  
+  • <TableBody>  
+  • <TableCaption>  
+  • <TableCell>  
+  • <TableHead>  
+  • <TableHeader>  
+  • <TableRow>  
 
-- @camped-ui/navigation-menu
-  Description: Structured menu for website or app primary navigation.
-  • <NavigationMenu>
-  • <NavigationMenuList>
-  • <NavigationMenuItem>
+- @camped-ui/tabs  
+  Description: Navigation element showing layered tab panels, only one visible at a time.  
+  • <Tabs>  
+  • <TabsContent>  
+  • <TabsList>  
+  • <TabsTrigger>  
 
+- @camped-ui/toggle  
+  Description: Two-state button for on/off selection with clear visual feedback.  
+  • <Toggle>  
 
-Overlays & Modals
------------------
-- @camped-ui/sheet
-  Description: Sliding panel from the edge of the screen, often used for side menus.
-  • <Sheet>
-  • <SheetTrigger>
-  • <SheetContent>
+- @camped-ui/toggle-group  
+  Description: Group of toggles allowing selection within a related set of options.  
+  • <ToggleGroup>  
+  • <ToggleGroupItem>  
 
-- @camped-ui/drawer
-  Description: Panel that slides in and out, used for navigation or forms.
-  • <Drawer>
-  • <DrawerTrigger>
-  • <DrawerContent>
+- @camped-ui/tooltip  
+  Description: Popup displaying information on hover or focus, providing additional context.  
+  • <Tooltip>  
+  • <TooltipContent>  
+  • <TooltipProvider>  
+  • <TooltipTrigger>  
 
-- @camped-ui/hover-card
-  Description: Card that appears when hovering, ideal for previews or tooltips.
-  • <HoverCard>
-  • <HoverCardTrigger>
-  • <HoverCardContent>
+- @camped-ui/tree-view  
+  Description: Displays hierarchical data in collapsible tree format for easy navigation.  
+  • <TreeView>  
 
+- @camped-ui/input  
+  Description: Versatile form input field supporting various input types.  
+  • <Input>  
 
-Media & Avatars
----------------
-
-- @camped-ui/avatar
-  Description: Circular user profile image with fallback initials.
-  • <Avatar>
-  • <AvatarImage>
-  • <AvatarFallback>
-
-
-Typography
-----------
-
-- @camped-ui/typography
-  Description: Pre-styled classes for formatting paragraphs, headings, and text blocks.
-  • <Rich text utility classes>
+- @camped-ui/input-otp  
+  Description: Accessible one-time password input with copy-paste functionality.  
+  • <InputOTP>  
+  • <InputOTPGroup>  
+  • <InputOTPSeparator>  
+  • <InputOTPSlot>  
