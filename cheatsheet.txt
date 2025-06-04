@@ -5,22 +5,32 @@ Camped UI Cheatsheet with Tags and Usage
 
 Layout & Display
 ----------------
-- @camped-ui/card
-  Description: Used to display grouped content in a clean container with a header, body, and footer.
-  • <Card>
-  • <CardHeader>
-  • <CardTitle>
-  • <CardDescription>
-  • <CardContent>
-  • <CardFooter>
+- @camped-ui/accordion
+  Description: Expandable/collapsible content sections used for FAQs and disclosures.
+  • <Accordion>
+  • <AccordionContent>
+  • <AccordionItem>
+  • <AccordionTrigger>
 
-- @camped-ui/separator
-  Description: A horizontal or vertical line used to separate sections of content.
-  • <Separator>
+- @camped-ui/alert
+  Description: Used to show important messages or warnings.
+  • <Alert>
+  • <AlertDescription>
+  • <AlertTitle>
 
-- @camped-ui/skeleton
+- @camped-ui/aspect-ratio
   Description: A loading placeholder used while content is being fetched or rendered.
-  • <Skeleton>
+  • <AspectRatio>
+
+- @camped-ui/avatar
+  Description: User profile image with fallback initials.
+  • <Avatar>
+  • <AvatarFallback>
+  • <AvatarImage>
+
+- @camped-ui/badge
+  Description: Indicates status, notifications, or achievements. It enhances visual communication within user interface.
+  • <Badge>
 
 
 Forms
