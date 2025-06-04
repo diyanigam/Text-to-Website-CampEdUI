@@ -231,3 +231,108 @@ Layout & Display
   • <InputOTPGroup>  
   • <InputOTPSeparator>  
   • <InputOTPSlot>  
+
+- @camped-ui/password-input  
+  Description: Secure password input with masking, visibility toggle, and strength indicators.  
+  • <PasswordInput>  
+
+- @camped-ui/multi-select  
+  Description: Multi-select dropdown with checkboxes for choosing multiple options simultaneously.  
+  • <MultiSelector>  
+  • <MultiSelectorContent>  
+  • <MultiSelectorInput>  
+  • <MultiSelectorItem>  
+  • <MultiSelectorList>  
+  • <MultiSelectorTrigger>  
+
+- @camped-ui/select  
+  Description: Dropdown for single option selection from a predefined list.  
+  • <Select>  
+  • <SelectContent>  
+  • <SelectItem>  
+  • <SelectTrigger>  
+  • <SelectValue>  
+
+- @camped-ui/textarea  
+  Description: Multiline input field for entering and editing longer text.  
+  • <Textarea>  
+
+- @camped-ui/tag-input  
+  Description: Tag management system with autocomplete, popover, and list components.  
+  • <TagInput>  
+  • TagType (type)  
+
+- @camped-ui/calendar  
+  Description: Interactive date picker for selecting and editing dates.  
+  • <Calendar>  
+
+- @camped-ui/checkbox  
+  Description: Binary toggle control for checked/unchecked states.  
+  • <Checkbox>  
+
+- @camped-ui/radio-group  
+  Description: Group of mutually exclusive radio buttons for single selection.  
+  • <RadioGroup>  
+  • <RadioGroupItem>  
+
+- @camped-ui/file-uploader  
+  Description: File upload input with content display and item listing.  
+  • <FileUploader>  
+  • <FileUploaderContent>  
+  • <FileUploaderItem>  
+  • <FileInput>  
+
+- @camped-ui/text  
+  Description: Styles for headings and paragraphs.  
+  • <Text>  
+
+- @camped-ui/typewriter-effect  
+  Description: Animated text effect simulating typing character by character.  
+  • <TypewriterEffect>  
+
+- @camped-ui/alert-dialog  
+  Description: Modal dialog interrupting user for important info or response.  
+  • <AlertDialog>  
+  • <AlertDialogAction>  
+  • <AlertDialogCancel>  
+  • <AlertDialogContent>  
+  • <AlertDialogDescription>  
+  • <AlertDialogFooter>  
+  • <AlertDialogHeader>  
+  • <AlertDialogTitle>  
+  • <AlertDialogTrigger>  
+
+- @camped-ui/sheet  
+  Description: Sliding panel overlay for contextual info or secondary actions.  
+  • <Sheet>  
+  • <SheetContent>  
+  • <SheetDescription>  
+  • <SheetHeader>  
+  • <SheetTitle>  
+  • <SheetTrigger>  
+
+- @camped-ui/popover  
+  Description: Portal-based rich content popup triggered by user action.  
+  • <Popover>  
+  • <PopoverContent>  
+  • <PopoverTrigger>  
+
+- @camped-ui/dialog  
+  Description: Overlay window for important info, forms, or interactions.  
+  • <Dialog>  
+  • <DialogContent>  
+  • <DialogDescription>  
+  • <DialogHeader>  
+  • <DialogTitle>  
+  • <DialogTrigger>  
+
+- @camped-ui/drawer  
+  Description: Side sliding panel for navigation, settings, or extra content.  
+  • <Drawer>  
+  • <DrawerClose>  
+  • <DrawerContent>  
+  • <DrawerDescription>  
+  • <DrawerFooter>  
+  • <DrawerHeader>  
+  • <DrawerTitle>  
+  • <DrawerTrigger>  
